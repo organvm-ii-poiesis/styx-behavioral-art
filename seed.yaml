@@ -1,0 +1,16 @@
+organ: II
+repo: styx-behavioral-art
+tier: standard
+status: ACTIVE
+consumes:
+  - type: theory
+    source: organvm-i-theoria/styx-behavioral-economics-theory
+    description: "Behavioral economics models inform visual language"
+produces:
+  - type: creative-artifact
+    description: "Artistic visualization of behavioral accountability"
+    consumers:
+      - organvm-iii-ergon/peer-audited--behavioral-blockchain
+subscriptions:
+  - event: theory.updated
+    action: regenerate
