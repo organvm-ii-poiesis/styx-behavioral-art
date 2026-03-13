@@ -1,7 +1,11 @@
+schema_version: "1.0"
 organ: II
+organ_name: Art
 repo: styx-behavioral-art
+org: organvm-ii-poiesis
 tier: standard
 status: ACTIVE
+ci_workflow: ci.yml
 consumes:
   - type: theory
     source: organvm-i-theoria/styx-behavioral-economics-theory
