@@ -1,0 +1,23 @@
+schema_version: '1.0'
+repo: styx-behavioral-art
+organ: II
+display_name: "Styx Art — Artistic visualization of behavioral accountability cycles"
+
+delivery:
+- platform: web_app
+  status: planned
+  priority: high
+  notes: "Visual language for stake/commitment/audit cycles informing Styx UX"
+  next_action: "Design visualization system for behavioral economics concepts"
+
+content:
+- platform: portfolio
+  status: in_progress
+  priority: critical
+  notes: "Art pieces visualizing behavioral accountability concepts"
+  next_action: "Complete first visualization series"
+- platform: docs_site
+  status: not_started
+  priority: medium
+  notes: "Visual language reference consumed by ORGAN-III Styx product"
+  next_action: "Document visual language and design system"
